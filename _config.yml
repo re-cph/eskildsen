@@ -1,0 +1,23 @@
+# Site settings
+company_name: "Malerfirmaet Eskildsen A/S"
+title: "Malerfirmaet Eskildsen A/S"
+email: "npe@malereskildsen.dk"
+phone: "+45 4498 9685"
+address_line1: "Lerhøj 20"
+address_line2: "2880 Bagsværd"
+description: > # this means to ignore newlines until "baseurl:"
+  Meget mere end hjemmesider - Digital samarbejdspartner med fokus på engagement, forståelse og kvalitet.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.malereskildsen.dk" # the base hostname & protocol for your site
+twitter_username: #recph
+github_username:  #re-cph
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
