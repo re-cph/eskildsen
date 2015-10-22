@@ -326,6 +326,9 @@ ul, ol {
 	margin: 0 0 10px;
 	position: relative;
 }
+#contact .head-title {
+  font-size: 20px;
+}
 .black-bg .head-title, .black-bg p {
 	color: #fff;
 }
