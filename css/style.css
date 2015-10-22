@@ -377,7 +377,7 @@ ul, ol {
 }
 .team-social a:hover{color:#1f1f1f;background:#fff;}
 #services-list .small-title {
-    margin: 0;
+    margin: 0 0 20px;
 }
 .team-post {
     color: #555555;
@@ -386,7 +386,7 @@ ul, ol {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.team-spacing{height:100px;width:100%;}
+.team-spacing{height:50px;width:100%;}
 #services-list .owl-pagination {
     height: 80px;
     margin-top: -80px;
@@ -396,9 +396,9 @@ ul, ol {
     z-index: 1;
 }
 #services-list .owl-page.active {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
     /*border-radius: 100px;*/
-    border-radius: 6px;
+    /*border-radius: 6px;*/
     color: #fff;
 }
 #services-list .owl-page span {

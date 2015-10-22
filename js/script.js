@@ -56,6 +56,12 @@
         transitionStyle: "fade"
     });
 
+    var teamSliderAfter = function() {
+      $(".team-slider .owl-page").eq(0).html("Traditionelt malerarbejde");
+      $(".team-slider .owl-page").eq(1).html("Sprøjtelakering");
+      $(".team-slider .owl-page").eq(2).html("Service- og rammeaftaler");
+      $(".team-slider .owl-page").eq(3).html("Hovedentrepriser");
+    };
 
     //slider team setting
     $(".team-slider").owlCarousel({
@@ -69,12 +75,8 @@
         mouseDrag: false,
         stopOnHover: true,
         transitionStyle: "fade",
-        afterInit: function() {
-          $(".team-slider .owl-page").eq(0).html("Traditionelt malerarbejde");
-          $(".team-slider .owl-page").eq(1).html("Sprøjtelakering");
-          $(".team-slider .owl-page").eq(2).html("Service- og rammeaftaler");
-          $(".team-slider .owl-page").eq(3).html("Hovedentrepriser");
-        }
+        afterInit: function() { teamSliderAfter() },
+        afterUpdate: function() { teamSliderAfter() },
     });
 
     // script prettyphoto
