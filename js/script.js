@@ -62,13 +62,19 @@
         navigation: false, // Hide next and prev buttons
         slideSpeed: 300,
         autoplay: true,
-		autoHeight: true,
+		    autoHeight: true,
         pagination: true,
         paginationSpeed: 300,
         singleItem: true,
         mouseDrag: false,
         stopOnHover: true,
-        transitionStyle: "fade"
+        transitionStyle: "fade",
+        afterInit: function() {
+          $(".team-slider .owl-page").eq(0).html("Traditionelt malerarbejde");
+          $(".team-slider .owl-page").eq(1).html("Sprøjtelakering");
+          $(".team-slider .owl-page").eq(2).html("Service- og rammeaftaler");
+          $(".team-slider .owl-page").eq(3).html("Hovedentrepriser");
+        }
     });
 
     // script prettyphoto
