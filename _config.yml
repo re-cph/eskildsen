@@ -7,6 +7,7 @@ email: "npe@malereskildsen.dk"
 phone: "+45 4498 9685"
 address_line1: "Lerhøj 20"
 address_line2: "2880 Bagsværd"
+cvr: "21 79 92 03"
 description: > # this means to ignore newlines until "baseurl:"
   Malerentrepriser siden 1936
 baseurl: "" # the subpath of your site, e.g. /blog/
