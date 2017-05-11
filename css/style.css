@@ -64,6 +64,18 @@ a:focus {
 	color: #999999;
 	text-decoration: none;
 }
+a.white {
+    background-color: white;
+    color: #999;
+}
+a.white:hover {
+    opacity: 0.2;
+}
+a.white:hover img {
+    zoom: 60%;
+    position: relative;
+    top: -3px;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
   /*font-family: 'Cinzel', serif;*/
