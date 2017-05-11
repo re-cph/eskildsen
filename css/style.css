@@ -71,7 +71,7 @@ a.white {
 a.white:hover {
     opacity: 0.2;
 }
-a.white:hover img {
+a.white img {
     zoom: 60%;
     position: relative;
     top: -3px;
