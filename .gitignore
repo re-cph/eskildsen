@@ -1,3 +1,7 @@
 _site
 .sass-cache
 images/.DS_Store
+.DS_Store
+images/contact/.DS_Store
+images/service/.DS_Store
+images/slider/.DS_Store
